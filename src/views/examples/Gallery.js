@@ -8,7 +8,7 @@ function Gallery() {
   return (
     <>
       <DemoNavbar />
-      <TwoColGallery />
+      {/* <TwoColGallery /> */}
       <Slider />
       <CardsFooter />
     </>

@@ -94,7 +94,7 @@ function Slider() {
             style={{
               textAlign: "center",
               maxWidth: "850px",
-              margin: "40px auto",
+              margin: "120px auto",
             }}
           />
         </div>

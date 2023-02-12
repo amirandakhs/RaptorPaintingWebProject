@@ -34,9 +34,9 @@ import {
 import MapSection from "../map/Map";
 
 const location = {
-  address: "1600 Amphitheatre Parkway, Mountain View, california.",
-  lat: 37.42216,
-  lng: -122.08427,
+  address: "27 Century Rd, Malaga WA 6090",
+  lat: -31.857093637082734,
+  lng: 115.89644365231285,
 };
 class CardsFooter extends React.Component {
   render() {
