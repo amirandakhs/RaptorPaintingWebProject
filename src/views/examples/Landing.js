@@ -45,6 +45,7 @@ import Download from "../IndexSections/Download.js";
 import HeroImage from "../../images/hero.jpg";
 import RCP from "../../images/rcp.jpg";
 import video1 from "../../images/video1.mp4";
+import Slider from "../../components/slider/Slider";
 class Landing extends React.Component {
   state = {};
   componentDidMount() {
@@ -145,6 +146,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+          <Slider />
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
