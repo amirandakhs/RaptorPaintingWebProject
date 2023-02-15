@@ -3,13 +3,19 @@ import GoogleMapReact from 'google-map-react'
 import './map.css'
 import LocationPin from "../map/LocationPin"
 
-  
+const getAPIKey = {
+  method: "GET",
+  headers: {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+  },
+  }
 
 const Map = ({ location, zoomLevel }) => {
 
   const [apiKey, setApiKey] = useState("")
   useEffect(() => {
-    fetch(`http://api.openlocationmap.org/data/2.5/location?APPID=${process.env.REACT_APP_APIKEY}`).then((result) => {
+    fetch(`https://raptorcoatingperth.com.au:8000/Map?APPID=${process.env.REACT_APP_APIKEY}`, getAPIKey).then((result) => {
       if (result.ok) {
         result.json ((jasonResult)=> setApiKey(jasonResult.appId))
       }
