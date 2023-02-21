@@ -31,13 +31,8 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
-import MapSection from "../map/Map";
+import Map from "../map/Map";
 
-const location = {
-  address: "27 Century Rd, Malaga WA 6090",
-  lat: -31.857093637082734,
-  lng: 115.89644365231285,
-};
 class CardsFooter extends React.Component {
   render() {
     return (
@@ -97,19 +92,21 @@ class CardsFooter extends React.Component {
                     <h4>COMPANY NAME</h4>
                     <p>explain a little about the company</p>
                   </div>
+                  <div className="map-container">
+                    <Map />
+                  </div>
                   <div className="col-md-3 col-sm-6">
                     <h4>CONTACT</h4>
                     <ul className="unstyled"></ul>
                     <p>
-                      <li class="fa fa-home mr-3"></li> address
+                      <li class="fa fa-home mr-3"></li> address: 27 Century Rd,
+                      Malaga WA 6090
                     </p>
                     <p>
                       <li class="fa fa-phone mr-3"></li> phone number
                     </p>
                   </div>
-                  <div className="col-md-3 col-sm-6">
-                    {/* <MapSection location={location} zoomLevel={17} /> */}
-                  </div>
+                  <div className="col-md-3 col-sm-6"></div>
                 </div>
                 <Col>
                   <div className="copyright text-center p-4">
