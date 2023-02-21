@@ -47,7 +47,6 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.15.1",
     "@iconify/icons-mdi": "^1.2.40",
     "@iconify/react": "^4.1.0",
     "bootstrap": "4.3.1",
