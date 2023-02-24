@@ -93,17 +93,17 @@ class CardsFooter extends React.Component {
             <hr />
             <div className="main-footer">
               <div className="container">
-                <div className="row">
+                <div className="row justify-content-around">
                   <div className="col-md-3 col-sm-6">
-                    <h4>COMPANY NAME</h4>
+                    <h4>Raptor Coating Perth</h4>
                     <p>explain a little about the company</p>
                   </div>
-                  <div>
+                  <div className="col-md-3 col-sm-6">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3388.820882842161!2d115.8942550147842!3d-31.85708902489312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDUxJzI1LjUiUyAxMTXCsDUzJzQ3LjIiRQ!5e0!3m2!1sen!2snl!4v1677009918630!5m2!1sen!2snl"
-                      width="400"
-                      height="300"
-                      style="border:0;"
+                      width="200"
+                      height="150"
+                      style={{ border: 0 }}
                       allowfullscreen=""
                       loading="lazy"
                       referrerpolicy="no-referrer-when-downgrade"
@@ -111,17 +111,17 @@ class CardsFooter extends React.Component {
                   </div>
 
                   <div className="col-md-3 col-sm-6 ml-5">
-                    <h4>CONTACT</h4>
-                    <ul className="unstyled"></ul>
-                    <p>
-                      <li class="fa fa-home mr-3"></li> address: 27 Century Rd,
-                      Malaga WA 6090
+                    <h4>Contact</h4>
+                    <p style={{ fontSize: 13 }}>
+                      {" "}
+                      <li className="fa fa-home mr-3 "></li>
+                      27 Century Rd, Malaga WA 6090
                     </p>
-                    <p>
+
+                    <p style={{ fontSize: 13 }}>
                       <li class="fa fa-phone mr-3"></li> phone number
                     </p>
                   </div>
-                  <div className="col-md-3 col-sm-6"></div>
                 </div>
                 <Col>
                   <div className="copyright text-center p-4">
