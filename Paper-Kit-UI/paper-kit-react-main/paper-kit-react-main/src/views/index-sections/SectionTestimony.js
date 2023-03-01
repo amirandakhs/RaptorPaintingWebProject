@@ -40,7 +40,7 @@ function SectionTestimony() {
   
   return (
     <>
-      <div className="section section-dark text-center">
+      <div style={{ "min-height": "100vh","max-height": "999px"}} className="section section-dark text-center">
           <Container>
             <h2 style={{color: "#0ccf6d"}} className="title">Think about us</h2>
             <Row>

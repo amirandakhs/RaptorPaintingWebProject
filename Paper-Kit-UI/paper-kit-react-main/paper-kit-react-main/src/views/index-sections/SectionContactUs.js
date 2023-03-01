@@ -12,9 +12,9 @@ import {
 
 function ContactUs(){
     return(
-        <>
-            <div style={{ "min-height": "100vh",
-    "max-height": "999px"}}  className="section landing-section">
+        <>    
+            <div   className="section landing-section" style={{ "min-height": "100vh",
+    "max-height": "999px"}}>
                 <Container>
                     <Row>
                         <Col className="ml-auto mr-auto" md="8">

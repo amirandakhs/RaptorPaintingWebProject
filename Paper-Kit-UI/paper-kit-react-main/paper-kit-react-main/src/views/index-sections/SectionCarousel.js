@@ -145,9 +145,21 @@ function SectionCarousel() {
                 </Carousel>
               </Card>
             </Col>
+            
+            <Col className="mx-auto" lg="4">
+            {/* <Card style={{"background": "rgba(0, 0, 0, 1)"}} className="card-register">
+                    
+            </Card> */}
+            <div style={{"background": "rgba(0, 0, 0, 1)","padding": "70px", "height":"39em", "borderRadius": "15px", "color": "#0ccf6d" }} >
+              <h5>Finishes</h5>
+              <ul>
+                <li>raptor</li>
+              </ul>
+            </div>
+            </Col>
           </Row>
         </Container>
-      </div>{" "}
+      </div>
     </>
   );
 }

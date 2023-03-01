@@ -1,5 +1,6 @@
 .footer{
     background-attachment: fixed;
+    color:#0ccf6d;
     position: relative;
     line-height: 20px;
 
@@ -22,7 +23,7 @@
     text-align: center;
 }
 .footer nav > ul a:not(.btn) {
-    color: #777777;
+    color: #0ccf6d;
     display: block;
     margin-bottom: 3px;
     line-height: 1.6;
@@ -33,7 +34,7 @@
 }
 .footer nav > ul a:not(.btn):hover,
 .footer nav > ul a:not(.btn):focus {
-  color: #777777;
+  color: #0ccf6d;
   opacity: 1;
 }
 .footer .copyright {
@@ -48,7 +49,7 @@
     color: #EB5E28;
 }
 .footer{
-    background-color: $white-color;
+    background-color: $black-color;
     line-height: $line-height;
 
     &.footer-black{
@@ -113,7 +114,7 @@
         }
     }
     hr{
-        border-color: $medium-gray;
+        border-color: #0ccf6d;
         border-width: 1px 0 0;
         margin-top: 5px;
         margin-bottom: 5px;

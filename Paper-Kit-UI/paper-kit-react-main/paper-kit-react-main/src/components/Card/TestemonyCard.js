@@ -33,7 +33,7 @@ function TestemonyCard({Name, Review, ImageName, Rate })
                 </Card>
                 <div>
                 {
-                    [ ...Array(5)].map(star=>(
+                    [ ...Array(Rate)].map(star=>(
                         <i style={{color: "#0ccf6d"}} className="fa fa-star" />
                      ))
                 }

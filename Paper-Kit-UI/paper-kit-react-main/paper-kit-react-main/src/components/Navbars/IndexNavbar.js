@@ -66,7 +66,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
+            href="/Home"
             target="_blank"
             title="Raptor Coating Perth"
           >
@@ -90,6 +90,14 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+          <NavItem>
+              <NavLink
+                href="/Gallery"
+                target="_blank"
+              >
+               Gallery
+              </NavLink>
+            </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
